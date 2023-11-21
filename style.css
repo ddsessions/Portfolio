@@ -1,3 +1,5 @@
+/* Entire Page */
+
 * {
     font-family:'Segoe UI';
     font-size: 20px;
@@ -53,6 +55,11 @@ li a:hover {
     padding-top: 55px;
 }
 
+#name {
+    text-align: center;
+    padding-top: 25px;
+}
+
 /* Logo Styling */
 
 .logos {
@@ -96,11 +103,6 @@ h2 {
     color: white;
 }
 
-#name {
-    text-align: center;
-    padding-top: 25px;
-}
-
 /* Footer Styling */
 
 footer {
@@ -108,13 +110,9 @@ footer {
 	width: 100%;
 	bottom: -50px;
     background-color: #929292;
-}
-
-footer {
-	color: black;
+    color: black;
 	text-decoration: none;
 	padding: 30px;
-	width: 100%;
 	box-sizing: border-box;
     white-space: nowrap;
 }
