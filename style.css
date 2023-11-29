@@ -90,13 +90,18 @@ h2 {
     text-decoration: none;
 }
 
+#main a:visited {
+    color: #508de2;
+}
+
 #main a:hover {
     color: #929292;
 }
 
-#main a:visited {
-    color: #508de2;
+#main a:active {
+    color: white;
 }
+
 
 #main {
     padding: 0 20px 0 20px;
